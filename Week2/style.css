@@ -1,16 +1,18 @@
  body {
-     background-color: blue;
+     background-color: cornflowerblue;
  }
 
- h1 {
+ /* h1 {
      color: goldenrod;
- }
+ } */
 
  div {
-     background-color: cornflowerblue;
+     background-color: bisque;
      border-style: solid;
      border-color: black;
      border-radius: 5px;
+     margin: 5px;
+     padding: 5px;
  }
 
  .shadow-text {
@@ -76,7 +78,7 @@
      background-color: rgb(185, 185, 185);
  }
 
- tr:hover {
+ tr:not(:first-child):hover {
      background-color: gray;
  }
 
@@ -87,4 +89,23 @@
      border-width: 3px;
      margin: 30px;
      background-color: aliceblue;
+ }
+
+ .navbar {
+     background-color: coral;
+     color: white;
+     padding: 15px;
+     margin: 5px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .navbar a {
+     color: white;
+     text-decoration: none;
+
+
+ }
+
+ .navbar a:hover {
+     color: red;
  }
