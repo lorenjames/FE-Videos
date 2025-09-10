@@ -6,13 +6,19 @@
      color: goldenrod;
  } */
 
- div {
+ .bodydiv {
      background-color: bisque;
      border-style: solid;
      border-color: black;
      border-radius: 5px;
      margin: 5px;
      padding: 5px;
+ }
+
+ .navbuttons {
+     display: flex;
+     justify-content: space-between;
+
  }
 
  .shadow-text {
