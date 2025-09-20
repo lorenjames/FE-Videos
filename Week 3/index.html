@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        #containerTest,
+        #fluidContainerTest,
+        #contItem {
+            border-style: solid;
+            border-color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">CodeProjex</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Request Info</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Item One</a>
+                        <a class="dropdown-item" href="#">Item Two</a>
+                        <a class="dropdown-item" href="#">Item Three</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="alert alert-primary" role="alert">
+        It Works!
+    </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <div id="containerTest" class="container">
+        <div id="contItem" class="row">
+            <div id="contItem" class="col-lg-6">
+                Content
+            </div>
+            <div id="contItem" class="col-lg-3">
+                Content
+            </div>
+            <div id="contItem" class="col-lg-3">
+                Content
+            </div>
+        </div>
+    </div>
+    <div id="fluidContainerTest" class="container-fluid">
+        <div id="contItem" class="row">
+            <div id="contItem" class="col-sm">
+                Content
+            </div>
+            <div id="contItem" class="col-sm">
+                Content
+            </div>
+            <div id="contItem" class="col-sm">
+                <div id="contItem" class="row">
+                    <div id="contItem" class="col-md-8">
+                        Here's my 8
+                    </div>
+                    <div id="contItem" class="col-md-4">
+                        Here's my 4
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert alert-primary">
+        Primary
+    </div>
+    <div class="alert alert-secondary">
+        Secondary
+    </div>
+    <div class="alert alert-success">
+        Success!!!
+    </div>
+    <div class="alert alert-danger">
+        DANGER!!!!!
+    </div>
+    <div class="alert alert-warning">
+        W A R N I N G
+    </div>
+
+    <button class="btn-primary">Primary Button</button>
+    <button class="btn-secondary">Secondary Button</button>
+    <button class="btn-success">Success Button</button>
+    <button class="btn-danger">Danger Button</button>
+    <button class="btn-warning">Warning Button</button>
+    <button class="btn-light">Light Button</button>
+    <button class="btn-dark">Dark Button</button>
+    <button class="btn-info">Info Button</button>
+    <button type="button" class="btn-link">Link Button</button>
+    <br><br>
+
+    <button class="btn btn-info">
+        Notifications <span class="badge badge-primary">5</span>
+    </button>
+    <h3>Invite Friends <span class="badge badge-primary">NEW</span></h3>
+    <table class="table table-dark table-hover">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Sam</td>
+            <td>Sam@gmail.com</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Tom</td>
+            <td>Tom@gmail.com</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Sally</td>
+            <td>Sally@gmail.com</td>
+        </tr>
+    </table>
+</body>
+
+</html>
